@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Laptop SiAbdi</title>
+  <style type="text/css"> 
+  p{ font-family: serif; line-height: 1.75em; font-size: 18px; } 
+  i { font-family: sans; color: orange; } 
+</style>
+</head>
+<body background="background-color" style="background-color:LightSteelBlue;">
+ <style type="text/css"> 
+  h2 { font-family: sans; color: blue; } 
+</style>
+    <hr>
+    <p>
+  <a href="Dashboard.html">Dashboard</a>
+  <a href="Biografi.html">[  Tentang ]</a>
+  <a href="JadwalKuliah.html">[ Jadwal ]</a>
+  <a href="Game1.html">[ Game  ] </a>
+  <a href="Game2.html">[ Game  ]</a>
+  <a href="ContactUss.html">[ Kontak ]</a>
+</p>
+  <h1 style="color:darkviolet;"> Selamat Datang Di Laptop SiAbdi</h1>
+  <h2> Isi Biodata Kamu Dulu Yaaa! ... </h2>
+  <h5 style="color:red;">[ NOTE ] : SEMUA DATA DAN INFORMASI ANDA TERENSKRIPSI END-TO-END</h5>
+  <hr>
+  <form action="kirimdata.html" method="post">
+    <fieldset>
+      <legend>Silahkan isi Profile Anda</legend>
+      <p>
+        <label>Nama Pengguna</label>
+        <input type="text" name="Nama Pengguna" placeholder="Nama Pengguna......."/>
+      </p>
+      <p>
+        <label>Kata Sandi</label>
+        <input type="password" name="Kata Sandi" placeholder=" Kata Sandi Pengguna......."/>
+      </p>
+      <p>
+        <label><input type="checkbox" name="Ingatkan Saya" value="remeber"/>Ingatkan Saya</label>
+      </p>
+      <p>
+        <label><input type="submit" name="kirim Data"value="Kirim"/></label>
+      </p>
+  </form>
+
+</body>
+</html>
